@@ -14,7 +14,6 @@ import java.util.Calendar;
 public class MainActivity extends AppCompatActivity {
 
     TextView editTanggalLahir, editNama, editNim;
-    RadioGroup radioGroup
     Calendar calendar;
     DatePickerDialog datePickerDialog;
 

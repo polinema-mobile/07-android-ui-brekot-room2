@@ -51,7 +51,7 @@
         app:layout_constraintTop_toBottomOf="@+id/editNim" />
 
     <RadioGroup
-        android:id="@+id/radioGroup2"
+        android:id="@+id/radioGroup"
         android:layout_width="350dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -63,13 +63,13 @@
         app:layout_constraintTop_toBottomOf="@+id/editTanggalLahir">
 
         <RadioButton
-            android:id="@+id/radioButton2"
+            android:id="@+id/radioButton1"
             android:layout_width="175dp"
             android:layout_height="wrap_content"
             android:text="LAKI-LAKI" />
 
         <RadioButton
-            android:id="@+id/radioButton5"
+            android:id="@+id/radioButton2"
             android:layout_width="175dp"
             android:layout_height="wrap_content"
             android:text="PEREMPUAN" />
@@ -86,7 +86,7 @@
         android:entries="@array/android_dropdown_arrays"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/radioGroup2" />
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
 
     <Button
         android:id="@+id/button"
